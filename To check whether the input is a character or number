@@ -1,0 +1,33 @@
+//Program to determine whether the input is a number or character
+
+
+#include <stdio.h>
+
+int main()
+
+{
+    char input;
+
+    printf("Enter the input \n");
+    scanf("%c", &input);
+
+    // 48-57 --> 0-9    From ASCII Table
+    if(input>=48 && input<=57)
+    {
+        printf("The input %c is a Number \n", input);
+    }
+
+    // 65-90 --> A-Z    From ASCII Table
+    if(input>=65 && input<=90)
+    {
+        printf("The input %c is Uppercase Character \n", input);
+    }
+
+    // 97-112 --> a-z    From ASCII Table
+    else if(input>=97 && input<=122)
+    {
+        printf("The input %c is Lowercase Character \n", input);
+    }
+    
+    return 0;
+}
