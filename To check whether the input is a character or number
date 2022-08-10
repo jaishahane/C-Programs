@@ -1,4 +1,4 @@
-//Program to determine whether the input is a number or character
+//Program to determine whether the input is a number or character (lower & uppercase)
 
 
 #include <stdio.h>
